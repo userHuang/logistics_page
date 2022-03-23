@@ -7,17 +7,7 @@ export default new Router({
   routes: [
     {
       path: '/',
-      component: r => require(['@/pages/home'], r),
-      meta: {
-        keepAlive: false
-      }
-    },
-    {
-      path: '/contact',
-      component: r => require(['@/pages/contact'], r),
-      meta: {
-        keepAlive: false
-      }
+      component: r => require(['@/pages/home'], r)
     }
   ]
 })
